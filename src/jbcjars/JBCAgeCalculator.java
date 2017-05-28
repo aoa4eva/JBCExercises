@@ -11,6 +11,7 @@ public class JBCAgeCalculator
 	public static boolean validateDate(int vDay, int vMonth, int vYear)
 	{
 		//This function returns validDate as true if the date is valid, false if it is not 
+		//The value of validDate is returned as the value of the function. 
 		boolean validDate = false; 
 		
 		if(vMonth<1||vMonth>12)
